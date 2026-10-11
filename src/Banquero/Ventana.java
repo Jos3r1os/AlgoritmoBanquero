@@ -56,7 +56,7 @@ public class Ventana extends JFrame {
     }
 
     private JPanel crearTitulo() {
-        JLabel titulo = new JLabel("Algoritmo del Banquero");
+        JLabel titulo = new JLabel("Algoritmo Banquero");
         titulo.setFont(new Font("SansSerif", Font.BOLD, 22));
         titulo.setForeground(Color.WHITE);
         JLabel sub = new JLabel("Estados seguros y detección de interbloqueo");
